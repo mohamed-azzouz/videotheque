@@ -104,9 +104,12 @@ a{
   }
 }
 
-.titrenaruto{
-    text-align: center;
+
+.bodynaruto{
     margin-top: 10% ;
+    background-image: url("photo/backnaruto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -129,12 +132,96 @@ a{
     animation-duration: 2s ;
 }
 
-.titrebakumatsu{
-    text-align: center;
-    
+.videonaruto{
+    display: flex;
+    margin-top: 5% ;
+    margin-bottom: 5% ;
 }
 
-.presentationbakumatsu {
+.videonaruto > a{
+    color: black ;
+}
+
+#titreepisodenaruto{
+    animation: inherit;
+    margin: auto;
+    background: rgba(0,0,0,.75);
+    padding: 3%;
+}
+
+#episodenaruto{
+    width: 400px ;
+    height: 50px ;
+    text-align: center;
+    margin-left: 33% ;
+    font-family: monospace ;
+    font-size: 20px ;
+    color: hsl(324, 70%, 45%);
+    animation: wheelHueColor 10s infinite;
+    background-color: currentColor;
+}
+
+@supports (background-blend-mode: overlay;){
+    #episodenaruto{
+        background-image: linear-gradient(45deg, white 10%, black 90%);
+        background-blend-mode: overlay;
+
+    }
+}
+
+@keyframes wheelHueColor {
+  from, to { color: hsl(324, 70%, 45%); }
+  10%      { color: hsl(360, 65%, 45%); }
+  20%      { color: hsl( 36, 80%, 45%); }
+  30%      { color: hsl( 72, 75%, 35%); }
+  40%      { color: hsl(108, 65%, 35%); }
+  50%      { color: hsl(144, 75%, 35%); }
+  60%      { color: hsl(180, 75%, 35%); }
+  70%      { color: hsl(216, 60%, 45%); }
+  80%      { color: hsl(252, 65%, 50%); }
+  90%      { color: hsl(288, 60%, 40%); }
+}
+
+
+#titreimagenaruto{
+    animation: inherit;
+    margin: auto;
+    background: rgba(0,0,0,.75);
+    padding: 3%;
+}
+
+#imagenaruto{
+    width: 400px ;
+    height: 50px ;
+    text-align: center;
+    margin-left: 33% ;
+    font-family: monospace ;
+    font-size: 20px ;
+    color: hsl(324, 70%, 45%);
+    animation: wheelHueColor 10s infinite;
+    background-color: currentColor;
+}
+
+@supports (background-blend-mode: overlay;){
+    #imagenaruto{
+        background-image: linear-gradient(45deg, white 10%, black 90%);
+        background-blend-mode: overlay;
+
+    }
+}
+
+.gifnaruto{
+    margin-top: 5% ;
+    margin-left: 5% ;
+}
+
+.bodyopm{
+    background-image: url("photo/backopm.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.presentationopm {
     width: 40%;
     margin-top: 10% ;
     padding-left: .5rem;
@@ -146,9 +233,241 @@ a{
     color: #29627e;
 }
 
-.presentationbakumatsu> p {
-    color: red ;
+.presentationopm> p {
+    color: black ;
     margin: 5% ;
     animation-name: slidein ;
     animation-duration: 2s ;
 }
+
+.videoopm{
+    display: flex;
+    margin-top: 5% ;
+    margin-bottom: 5%; 
+}
+
+.videoopm > a{
+    color: white ;
+}
+
+#titreepisodeopm{
+    animation: inherit;
+    margin: auto;
+    background: rgba(0,0,0,.75);
+    padding: 3%;
+}
+
+#episodeopm{
+    width: 400px ;
+    height: 50px ;
+    text-align: center;
+    margin-left: 33% ;
+    font-family: monospace ;
+    font-size: 20px ;
+    color: hsl(324, 70%, 45%);
+    animation: wheelHueColor 10s infinite;
+    background-color: currentColor;
+}
+
+@supports (background-blend-mode: overlay;){
+    #episodeopm{
+        background-image: linear-gradient(45deg, white 10%, black 90%);
+        background-blend-mode: overlay;
+
+    }
+}
+
+#titregifopm{
+    animation: inherit;
+    margin: auto;
+    background: rgba(0,0,0,.75);
+    padding: 3%;
+}
+
+#imageopm{
+    width: 400px ;
+    height: 50px ;
+    text-align: center;
+    margin-left: 33% ;
+    font-family: monospace ;
+    font-size: 20px ;
+    color: hsl(324, 70%, 45%);
+    animation: wheelHueColor 10s infinite;
+    background-color: currentColor;
+}
+
+@supports (background-blend-mode: overlay;){
+    #imageopm{
+        background-image: linear-gradient(45deg, white 10%, black 90%);
+        background-blend-mode: overlay;
+
+    }
+}
+
+.gifopm{
+    margin-top: 5% ;
+    margin-left: 5% ;
+}
+
+#titresuggestioncat3{
+    text-align: center;
+}
+
+
+.suggestioncat3{
+    background-color: red;
+    display: flex;
+    padding-left: 10% ;
+}
+
+
+
+
+/* PAGE CAT FILM */
+
+.bodykiminonawa{
+    background-image: url("photo/backkiminonawa.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.presentationfilm1{
+    margin-top: 7% ;
+}
+
+#imgfilm1{
+    margin-left: 40% ;
+}
+
+.synopsiskiminonawa{
+    border-style: solid;
+    border-width: 4px ;
+}
+
+.synopsiskiminonawa > p{
+    animation-name: slidein ;
+    animation-duration: 3s ;
+    text-align: center;
+}
+
+#titrebakiminonawa{
+    text-align: center;
+    font-size: 30px;
+}
+
+.bakiminonawa {
+    display: flex;
+    width: 64% ;
+    margin-left: 20% ;
+    border-style: dashed;
+    border-width: 6px
+}
+
+#titreimgkiminonawa{
+    text-align: center;
+    font-size: 30px ;
+}
+
+#extraitfilm1{
+    text-align: center;
+    font-size: 30px ;
+}
+
+.filmkiminonawa{
+    margin-left: 30% ;
+}
+
+.bodysilentvoice{
+    background-image: url("photo/backsilentvoice.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#photofilm2{
+    margin-left: 40% ;
+}
+
+.synopsissilentvoice > p{
+    text-align: center;
+    border-style: solid;
+    border-width: 4px ;
+        animation-name: slidein ;
+    animation-duration: 3s ;
+}
+
+#titrebasilentvoice{
+    text-align: center;
+}
+
+.basilentvoice{
+    margin-left: 20%;
+}
+
+#titreimgsilentvoice{
+    text-align: center;
+    font-size: 30px ;
+}
+
+#extraitfilm2{
+    text-align: center;
+    font-size: 30px ;
+}
+
+.filmsilentvoice{
+    margin-left: 30%;
+}
+
+#suggestion{
+    text-align: center;
+    font-size: 30px ;
+}
+
+.suggestionfilm{
+    background-color: turquoise ;
+    padding-left: 15%;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
