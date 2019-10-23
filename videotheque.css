@@ -62,7 +62,7 @@ a {
 
 .spacenew {
     margin:20px;
-    
+    background: linear-gradient(to right, #c9ffbf, #ffafbd); 
     flex-basis:15%;
     text-align:center;
     box-shadow: 10px 5px 5px rgb(0, 0, 0);
